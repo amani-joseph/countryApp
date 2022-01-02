@@ -90,8 +90,8 @@ myInput.addEventListener('keyup', () => {
     typingTimer = setTimeout(doneTyping, doneTypingInterval);
   }
 });
-myInput.addEventListener('focusin',()=> countriesContainer.style.opacity = 0.5);
-myInput.addEventListener('focusout',()=> countriesContainer.style.opacity = 1);
+myInput.addEventListener('focusin',()=> countriesContainer.style.opacity = 0);
+// myInput.addEventListener('focusout',()=> countriesContainer.style.opacity = 1);
 
 //user is "finished typing," do something
 function doneTyping() {
